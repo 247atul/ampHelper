@@ -68,10 +68,6 @@ class AmpHelper
 		{
 			$data = str_replace($key, $value, $data);
 		}
-
-        // to remove lead from content
-        // preg_match("<form (.*?)<\/form>", $data, $match);
-        
 		return $data;
 	}
 
